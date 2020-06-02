@@ -8,3 +8,5 @@ target
 yarn.lock
 node_modules/
 .DS_Store
+resources/public/ui
+.store
