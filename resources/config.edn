@@ -1,1 +1,4 @@
-{}
+{:{{project}}.http/server
+ {:port 5555
+  :rebuild-on-request? #profile {:default true
+                                 :prod false}}}

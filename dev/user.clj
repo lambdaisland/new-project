@@ -16,7 +16,10 @@
    ((jit shadow.cljs.devtools.api/nrepl-select) build-id)))
 
 (defn browse []
-  ((jit clojure.java.browse/browse-url) "http://localhost:8000"))
+  ((jit clojure.java.browse/browse-url)
+   (str "http://localhost:"
+        (get-in ((jit {{project}}.bootstrap/ig-config))
+                [:{{project}}.http/server :port]))))
 
 (defn go []
   ((jit {{project}}.bootstrap/go)))
