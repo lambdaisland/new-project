@@ -1,4 +1,6 @@
-(ns {{project}}.ui)
+(ns {{project}}.ui
+  (:require [reagent.core :as reagent]
+            [reagent.dom :as reagent-dom]))
 
 (defn main []
   [:p "Hello, {{project}}"])
