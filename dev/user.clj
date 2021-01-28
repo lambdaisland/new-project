@@ -17,3 +17,6 @@
 
 (defn browse []
   ((jit clojure.java.browse/browse-url) "http://localhost:8000"))
+
+(defn go []
+  ((jit {{project}}.bootstrap/go)))
