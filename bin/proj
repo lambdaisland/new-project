@@ -4,7 +4,7 @@
   (:require [lioss.main :as lioss]))
 
 (lioss/main
- {:license          :epl
+ {:license          :mpl
   :inception-year   2021
   :description      ""
   :group-id         "com.lambdaisland"})
