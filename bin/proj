@@ -1,11 +1,11 @@
-#!bin/bb
+#!/usr/bin/env bb
 
 (ns proj
   (:require [lioss.main :as lioss]))
 
 (lioss/main
  {:license          :mpl
-  :inception-year   2021
+  :inception-year   2022
   :description      ""
   :group-id         "com.lambdaisland"})
 
