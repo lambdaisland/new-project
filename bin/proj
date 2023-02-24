@@ -5,7 +5,7 @@
 
 (lioss/main
  {:license          :mpl
-  :inception-year   2022
+  :inception-year   2023
   :description      ""
   :group-id         "com.lambdaisland"})
 
